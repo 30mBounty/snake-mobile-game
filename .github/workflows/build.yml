@@ -12,10 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Fix permissions
-        run: |
-          sudo chown -R $USER:$USER .
-
       - name: Build with Buildozer Docker
         uses: docker://kivy/buildozer
         with:
