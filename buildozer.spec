@@ -2,8 +2,12 @@
 title = Snake Mobile
 package.name = snakemobile
 package.domain = org.omarpro
+
+# (str) Source files where the let's go
+source.dir = .
+
+# (list) Source files to include (let it specify extensions)
 source.include_exts = py,png,jpg,kv,atlas,json
-source.include_dir = .
 version = 1.0
 requirements = python3,pygame
 orientation = portrait
